@@ -1,0 +1,50 @@
+.header {
+  background-color: rgb(11, 34, 58);
+  color: white; 
+  display: flex;
+}
+
+.header h1 {
+  font-family: 'Inspiration', cursive;
+  font-size: 2.5em;
+  margin: 0;
+  padding: 1px 1px 1px 8px;
+}
+
+.header-links {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Noto Sans JP', sans-serif;
+  justify-content: space-between;
+  list-style-type: none;       
+}
+
+.sso-links {
+  list-style-type: none;       
+}
+
+/* Images */
+.johann-image {
+  width: auto;
+  height: 100px;
+  border-radius: 10%;
+}
+
+.github-logo {
+  width: auto;
+  height: 50px;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+}
+
+.page-content {
+  background-color: rgb(225, 199, 229)
+}
+.page-profile {
+  background-color: rgb(238, 223, 241);
+  
+}
+
