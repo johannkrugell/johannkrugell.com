@@ -1,22 +1,57 @@
-.header {
-  background-color: rgb(11, 34, 58);
-  color: white; 
-  display: flex;
+body{
+  background-color: rgb(241, 237, 242);
 }
 
-.header h1 {
-  font-family: 'Inspiration', cursive;
+/* Header */
+.header {
+  align-items: center;
+  background-color: rgb(241, 237, 242);
+  color: rgb(11, 34, 58); 
+  display: flex;
+  justify-content: space-between;
+  padding: 0em 1.5em;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+}
+.header-title h1 {
+  font-family: 'Inspiration', sans-serif;
   font-size: 2.5em;
+  color: rgb(11, 34, 58);
   margin: 0;
-  padding: 1px 1px 1px 8px;
+  padding: 1px 1px 1px 10px;
+}
+
+.header-title h1 a {
+  color:  rgb(11, 34, 58);
+  text-decoration: none;
+}
+.header-title h1 a:hover {
+  color: white
 }
 
 .header-links {
   display: flex;
   flex-direction: row;
   font-family: 'Noto Sans JP', sans-serif;
-  justify-content: space-between;
-  list-style-type: none;       
+  font-size: 1.0em;
+  justify-content: space-evenly;
+  list-style-type: none; 
+}
+
+.header-links li {
+  padding: 15px;
+}
+
+.header-links li a {
+  color:  rgb(11, 34, 58);
+  text-decoration: none;
+}
+
+.header-links li a:hover {
+  color: white;
 }
 
 .sso-links {
@@ -24,6 +59,12 @@
 }
 
 /* Images */
+.johann-image-header {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+}
+
 .johann-image {
   width: auto;
   height: 100px;
