@@ -1,5 +1,6 @@
-body{
+html, body {
   background-color: rgb(241, 237, 242);
+  height: 100%;
 }
 
 /* Header */
@@ -55,7 +56,15 @@ body{
 }
 
 .sso-links {
-  list-style-type: none;       
+  display: flex;
+  flex-direction: row;
+  justify-content: center;     
+  list-style-type: none; 
+  padding: 3px;
+}
+
+.sso-links li {
+  padding: 5px;
 }
 
 /* Images */
@@ -66,26 +75,37 @@ body{
 }
 
 .johann-image {
-  width: auto;
-  height: 100px;
-  border-radius: 10%;
-}
-
-.github-logo {
-  width: auto;
-  height: 50px;
+  border-radius: 25%;
+  align-self: center;
+  display: flex;
+  height: 135px;
+  justify-content: center;
+  padding: 10px;
 }
 
 .page {
   display: flex;
   flex-direction: row;
+  height: 100%;
 }
 
 .page-content {
-  background-color: rgb(225, 199, 229)
-}
-.page-profile {
-  background-color: rgb(238, 223, 241);
-  
+  background-color: rgb(225, 199, 229);
+  margin: 5px 35px 0px 0px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.0em;
 }
 
+.page-content h2 {
+  text-align: center;
+}
+
+.page-profile {
+  background-color: rgb(238, 223, 241);
+  margin: 5px 0px 35px 35px;
+  padding: 5px 22px;
+}
+
+.welcome {
+  padding: 0px 15px 0px 15px;
+}
