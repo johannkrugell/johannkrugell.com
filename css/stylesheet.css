@@ -91,13 +91,18 @@ html, body {
 
 .page-content {
   background-color: rgb(225, 199, 229);
-  margin: 5px 35px 0px 0px;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 1.0em;
+  margin: 5px 35px 0px 0px;
+  width: 100%;
 }
 
 .page-content h2 {
+  color: rgb(11, 34, 58);
+  font-size: 2.5em;
   text-align: center;
+  margin-bottom: 15px;
+  
 }
 
 .page-profile {
@@ -106,6 +111,21 @@ html, body {
   padding: 5px 22px;
 }
 
-.welcome {
-  padding: 0px 15px 0px 15px;
+.paragraph {
+  padding: 0px 15px 10px 15px;
+  margin: 0px 150px;
+}
+
+.now-professional, .now-personal, .now-location {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.0em;
+  font-weight: bold;
+  margin-left: 150px;
+  padding-left: 15px;
+  padding-bottom: 0px;
+}
+
+.list-now-professional, .list-now-personal, .list-now-location {
+  /* list-style-type: none; */
+  margin: 0px 0px 0px 200px;
 }
