@@ -1,6 +1,8 @@
 html, body {
   background-color: rgb(241, 237, 242);
-  height: 100%;
+  padding-bottom: 15px;
+
+  /*height: 100%;*/
 }
 
 /* Header */
@@ -89,7 +91,8 @@ html, body {
   height: 100%;
 }
 
-.page-content {
+.page-content, 
+.page-content-project {
   background-color: rgb(225, 199, 229);
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 1.0em;
@@ -97,21 +100,23 @@ html, body {
   width: 100%;
 }
 
-.page-content h2 {
+.page-content h2, 
+.page-content-project h2 {
   color: rgb(11, 34, 58);
   font-size: 2.5em;
   text-align: center;
   margin-bottom: 15px;
-  
 }
 
 .page-profile {
   background-color: rgb(238, 223, 241);
-  margin: 5px 0px 35px 35px;
-  padding: 5px 22px;
+  margin: 5px 0px 0px 35px;
+  padding: 5px 22px 15px 10px;
+  width: 250px;
 }
 
-.paragraph {
+.paragraph,
+.page-content-project .paragraph {
   padding: 0px 15px 10px 15px;
   margin: 0px 150px;
 }
@@ -128,4 +133,59 @@ html, body {
 .list-now-professional, .list-now-personal, .list-now-location {
   /* list-style-type: none; */
   margin: 0px 0px 0px 200px;
+}
+
+/* Project Page */
+.recipes-target,
+.landing-page-target,
+.rock-paper-scissors-target,
+.etch-a-sketch-target,
+.calculator-target {
+  width: 250px;
+  height: 150px;
+  padding: 0px 30px 0px 0px;
+  margin: 0px 150px 0px 15px;
+  
+}
+
+.recipes-image,
+.landing-page-image,
+.rock-paper-scissors-image,
+.etch-a-sketch-image,
+.calculator-image {
+  border-radius: 15px 15px;
+  width: 100%;
+  height: 100%;
+  object-position: 60% 0%;
+  object-fit: fill;
+  
+}
+
+.recipes-content,
+.landing-page-content,
+.rock-paper-scissors-content,
+.etch-a-sketch-content,
+.calculator-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.page-content-project h3 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.0em;
+  font-weight: bold;
+  margin-left: 150px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 0px;
+} 
+
+.paragraph-recipes,
+.paragraph-landing-page, 
+.paragraph-rock-paper-scissors,
+.paragraph-etch-a-sketch,
+.paragraph-calculator {  
+  width: 650px;
+  padding: 0px 0px 15px 15px;
+  margin: 0px 0px 0px 150px; 
 }
