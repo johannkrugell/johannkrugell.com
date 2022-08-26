@@ -18,6 +18,7 @@ html, body {
 .header-title {
   display: flex;
   align-items: center;
+  padding-left: 15px;
 }
 .header-title h1 {
   font-family: 'Inspiration', sans-serif;
@@ -40,6 +41,7 @@ html, body {
   flex-direction: row;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 1.0em;
+  font-weight: bold;
   justify-content: space-evenly;
   list-style-type: none; 
 }
@@ -63,6 +65,7 @@ html, body {
   justify-content: center;     
   list-style-type: none; 
   padding: 3px;
+  text-decoration: none;
 }
 
 .sso-links li {
@@ -70,25 +73,21 @@ html, body {
 }
 
 /* Images */
-.johann-image-header {
-  width: 34px;
-  height: 34px;
-  border-radius: 999px;
+.johann-image-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
 }
-
 .johann-image {
   border-radius: 25%;
-  align-self: center;
-  display: flex;
   height: 135px;
-  justify-content: center;
   padding: 10px;
 }
 
 .page {
   display: flex;
   flex-direction: row;
-  height: 100%;
+  min-height: 100%;
 }
 
 .page-content, 
@@ -98,6 +97,8 @@ html, body {
   font-size: 1.0em;
   margin: 5px 35px 0px 0px;
   width: 100%;
+  
+  width: 1200px;
 }
 
 .page-content h2, 
